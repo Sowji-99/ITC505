@@ -60,7 +60,6 @@ footer {
   font-family: "Montserrat", sans-serif;
 }
 
-
 .bold {
   font-weight: 700;
   font-size: 20px;
@@ -73,15 +72,10 @@ footer {
 }
 
 .resume {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  width: 800px;
+  height: auto;
+  display: flex;
   margin: 50px auto;
-  max-width: 1300px;
-  background-color: #fff;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .resume .resume_left {
