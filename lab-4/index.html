@@ -284,11 +284,15 @@
 </div>
          <!-- END EDMO HTML (Happy Coding!)-->
     </main>
-    <footer class="resume" style="background-color: white;">
+    <footer class="resume">
         <p>Last updated: 
             <span id="lastModified"></span>
         </p>
     </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
     
    </body>
 </html>
