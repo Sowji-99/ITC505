@@ -264,3 +264,8 @@ body {
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
+
+.resume footer {
+  background-color: white;
+  /* Add any other styling you want for the footer here */
+}
