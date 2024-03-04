@@ -29,8 +29,8 @@ body {
 }
 
 .resume {
-  width: 1400px;
-  height: auto;
+  width: 1800px;
+  height: 1100px;
   display: flex;
   margin: 50px auto;
 }
