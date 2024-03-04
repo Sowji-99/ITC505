@@ -239,3 +239,37 @@ body {
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
 }
+
+
+.resume .resume_right .label {
+  display: inline-block;
+  width: 150px; /* Adjust the width to your preference */
+}
+
+.resume .resume_right .project-details {
+  margin-top: 20px;
+}
+
+.resume .resume_right .project-details .details-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.resume .resume_right .project-details .details-label {
+  flex: 1;
+  font-weight: bold;
+}
+
+.resume .resume_right .project-details .details-value {
+  flex: 3;
+}
+
+.resume .resume_right .project-details .details-value ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.resume footer {
+  background-color: white;
+  /* Add any other styling you want for the footer here */
+}
