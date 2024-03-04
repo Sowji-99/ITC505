@@ -24,7 +24,7 @@
      <div class="resume_content">
        <div class="resume_item resume_info">
          <div class="title">
-           <p class="bold">Devi Sowjanya</p>
+           <p class="">Devi Sowjanya</p>
            <p class="regular">IT Master's Student at Northern Arizona University | Ex Analyst 1 Cloud Engineer @DXC</p>
          </div>
          <ul>
@@ -49,7 +49,7 @@
                <i class="fas fa-envelope"></i>
              </div>
              <div class="data">
-               dc2858@nau.edu
+                <a href="mailto:dc2858@nau.edu" > dc2858@nau.edu</a>
              </div>
            </li>
            
@@ -144,6 +144,41 @@
                 </li>
             </ul>
         </div>
+        <div class="resume_item resume_hobbies">
+            <div class="title">
+                <p class="bold" > Hobbies</p>
+
+            </div>
+            <ul>
+                <li>
+                    <div class="data">
+                        <p class="semi-bold" >▪ Listening Music </p>
+                        <p class="semi-bold" >▪ Playing Badminton </p>
+                        <p class="semi-bold" >▪ Binge Watching </p>
+                        <p class="semi-bold" >▪ Travelling </p>
+                        <p class="semi-bold" >▪ Cooking </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="resume_item resume_Awards&Achievements">
+            <div class="title">
+                <p class="bold"> Awards & Achievements </p>
+
+            </div>
+            <ul>
+                <li>
+                    <div class="data">
+                        <p class="semi-bold">▪ Q3 Champs Award DXC </p>
+                        <p class="semi-bold">▪ H2 Collaborators Award </p>
+                        <p class="semi-bold">▪ BVP Group Singing Award</p>
+                        <p class="semi-bold">▪ Ramanujan Award </p>
+                    </div>
+                </li>
+            </ul>    
+        </div>
+        
      </div>
   </div>
   <div class="resume_right">
@@ -294,27 +329,41 @@
 <div class="info">
     <h2>Addendum</h2>
     <p>
-        The CSS code provided includes styles for creating a resume layout. Here's a breakdown of the key elements covered:<br>
+        The below points are the key address for what I have used in styling:<br>
     </p>
-            <p>General reset for all elements</p>
-            <p>Font import from Google Fonts - Montserrat with weights 400, 500, and 700</p>
-            <p>Typography styles for bold and semi-bold text</p>
-            <p>Resume container styles for layout and alignment</p>
-            <p>Styles for the left side of the resume, including profile, content, and skills</p>
-            <p>Styles for the right side of the resume, including work experience, education, and projects</p>
-            <p>Footer styles</p>
-        
-        <p> These styles are designed to create a visually appealing and organized resume format. Montserrat font adds a modern and professional touch to the overall design. </p>
+    <p class="semi-bold" >1. Font Choices <br> </p>
+            <p>▪ The primary font used is Montserrat, with weights 400 (regular), 500 (semi-bold), and 700 (bold).</p>
+            <p>▪ Additionally, sans-serif is specified as a fallback font for compatibility.</p>
+    <p class="semi-bold">2. Heading and Text Sizes <br></p>
+            <p>▪ Headings are styled with a font size of 20 pixels and a font weight of 700, making them bold and larger for emphasis.</p>
+            <p>▪ The main text size is set to 16 pixels, ensuring readability and consistency.</p>
+            <p>▪ I have used h1 head tag for title because title tag should be h1 only </p>
+    <p class="semi-bold">3. Color Choices<br> </p>
+          
+             <p>▪ Background colors: <br></p>
+                   <p>▪ The main container (.cd__main) has a linear gradient background from a light blue (#c9d6ff) to a light gray (#e2e2e2). </p>
+                   <p>▪ The body background is set to a darker grayish-blue (#585c68), providing contrast and readability. </p>
+                   <p>▪ I chose these color preferences beacuse it is visually appealing and reader can read it clearly </p>
+         
+             <p>▪ Text Colors: </p>
+                   <p>▪ Bold text (.bold) is styled in white (#fff) against a blue background for visibility.</p>
+                   <p>▪ Regular text (.regular) is presented in a lighter shade of blue (#b1eaff) for readability. </p>
+    <p class="semi-bold"> 4. Margin and Padding Choices</p>
+             <p> The document as a whole:<br>
+                ▪ Utilizes a margin of 50 pixels on the top and bottom and auto margins on the left and right for centering the content.</p>
+             <p> Individual sections:<br>
+                ▪  Resume sections (.resume) have a width of 1000 pixels and utilize flexbox for layout. <br>
+                ▪  Left section (.resume_left) has a width of 580 pixels and a 50-pixel padding on the sides to provide space between content and container edges.<br>
+                ▪  Resume items (.resume_item) have 25 pixels of padding on the top and bottom for spacing between items.<br></p>
     <p>
-        Additionally, the CSS code ensures proper spacing, color schemes, and visual hierarchy to enhance readability and user experience. Feel free to adjust these styles according to your preferences and branding requirements.
-    </p>
+        Additionally, I chose proper spacing, color schemes, and visual hierarchy to enhance readability and user experience. and footer background set to white so that timecan be highlighted </p>
 </div>
          <!-- END EDMO HTML (Happy Coding!)-->
     </main>
 
    
     
-    <footer class="resume" font-size :18 px ; style="background-color: white;">
+    <footer class="resumefooter"  >
         <p>Last updated: 
             <span id="lastModified"></span>
         </p>

@@ -89,9 +89,9 @@ body {
 
 .resume .resume_left ul li .icon {
   width: 25px;
-  height: 15px;
-  background: #fff;
-  color: #0bb5f4;
+  height: 25px;
+ /* background: #fff;*/
+  color: white;
   border-radius: 50%;
   margin-right: 15px;
   font-size: 16px;
@@ -259,8 +259,16 @@ body {
   padding-left: 20px;
 }
 
-.resume footer {
+.resumefooter {
   font-size: 18px;
-  background-color: white;
+  background: #585c68;
+  line-height: 22px;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  margin: 50 px auto;
+  text-transform: uppercase;
+  justify-content: center;
+
   /* Add any other styling you want for the footer here */
 }
