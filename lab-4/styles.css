@@ -296,6 +296,10 @@ body {
   padding: 0.7cm;
 }
 
+.resume {
+  page-break-after: always;
+}
+
 .resume footer {
   background-color: white;
   /* Add any other styling you want for the footer here */
