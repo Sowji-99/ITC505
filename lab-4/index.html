@@ -3,69 +3,21 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="author" content="Devi Sowjanya Chinta">
-      <title> Resume/CV with CSS </title>
-	  <style>
-	    table {
-            border-collapse: collapse;
-            width: 94%;
-        }
-
-        th, td {
-            border: 5px solid #ddd;
-            padding: 4px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-		th:first-child,
-        td:first-child {
-            width: 30%; /* Set the desired width */
-        }
-        th:second-child,
-        td:second-child {
-            width: 30%; /* Set the desired width */
-        }
-		
-        body {
-            background-color: white;
-            color: black;
-            margin: 20px;
-        }
-
-        article {
-            background-color: #87CEEB; /* Sky Blue */
-            padding: 15px;
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: right;
-        }
-
-        h1, h2, h3, p {
-            color: black;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 20px;
-        }
-    </style>
-	  
-	  
+      <meta name="author" content="CodeHim">
+      <title> Resume/CV Design Example </title>
       <!-- Style CSS -->
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <!-- Demo CSS (No need to include it into your project) -->
+      <link rel="stylesheet" href="./css/demo.css">
       <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-
-      
    </head>
    <body>
       <header class="cd__intro">
-         <h1> Resume </h1>
-        
-         
+         <h1> Resume/CV Design Example </h1>
+         <p> Resume/CV Design </p>
+         <div class="cd__action">
+            <a href="https://www.codehim.com/html5-css3/html-code-for-resume-with-picture" title="Back to download and tutorial page" class="cd__btn back">Back to Tutorial</a>
+         </div>
       </header>
       <!--$%adsense%$-->
       <main class="cd__main">
@@ -73,13 +25,13 @@
          <div class="resume">
    <div class="resume_left">
      <div class="resume_profile">
-       <img src="https://raw.githubusercontent.com/Sowji-99/ITC505/main/lab-4/image.jpeg" alt="profile_pic">
+       <img src="https://i.imgur.com/eCijVBe.png" alt="profile_pic">
      </div>
      <div class="resume_content">
        <div class="resume_item resume_info">
          <div class="title">
-           <p class="bold">Devi Sowjanya Chinta</p>
-           <p class="regular">IT Master's Student at Northern Arizona University | Ex Analyst 1 Cloud Engineer @DXC</p>
+           <p class="bold">stephen colbert</p>
+           <p class="regular">Designer</p>
          </div>
          <ul>
            <li>
@@ -87,7 +39,7 @@
                <i class="fas fa-map-signs"></i>
              </div>
              <div class="data">
-                813 W University Avenue, Arizona <br /> USA
+               21 Street, Texas <br /> USA
              </div>
            </li>
            <li>
@@ -95,7 +47,7 @@
                <i class="fas fa-mobile-alt"></i>
              </div>
              <div class="data">
-               +1(928)9883377
+               +324 4445678
              </div>
            </li>
            <li>
@@ -103,7 +55,15 @@
                <i class="fas fa-envelope"></i>
              </div>
              <div class="data">
-               dc2858@nau.edu
+               stephen@gmail.com
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-weebly"></i>
+             </div>
+             <div class="data">
+               www.stephen.com
              </div>
            </li>
          </ul>
@@ -133,7 +93,7 @@
            </li>
            <li>
              <div class="skill_name">
-               MySQL
+               SASS
              </div>
              <div class="skill_progress">
                <span style="width: 90%;"></span>
@@ -149,7 +109,15 @@
              </div>
              <div class="skill_per">60%</div>
            </li>
-           
+           <li>
+             <div class="skill_name">
+               JQUERY
+             </div>
+             <div class="skill_progress">
+               <span style="width: 88%;"></span>
+             </div>
+             <div class="skill_per">88%</div>
+           </li>
          </ul>
        </div>
        <div class="resume_item resume_social">
@@ -157,16 +125,40 @@
            <p class="bold">Social</p>
          </div>
          <ul>
-           
+           <li>
+             <div class="icon">
+               <i class="fab fa-facebook-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Facebook</p>
+               <p>Stephen@facebook</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-twitter-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Twitter</p>
+               <p>Stephen@twitter</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-youtube"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Youtube</p>
+               <p>Stephen@youtube</p>
+             </div>
+           </li>
            <li>
              <div class="icon">
                <i class="fab fa-linkedin"></i>
              </div>
              <div class="data">
                <p class="semi-bold">Linkedin</p>
-               <a href="https://www.linkedin.com/in/devi-sowjanya-85932019a/" >Devi Sowjanya @Linkedin</Linked-In></a>
-
-
+               <p>Stephen@linkedin</p>
              </div>
            </li>
          </ul>
@@ -176,11 +168,9 @@
   <div class="resume_right">
     <div class="resume_item resume_about">
         <div class="title">
-           <p class="bold">About</p>
+           <p class="bold">About us</p>
          </div>
-        <p>
-Experienced Associate Professional Software Engineer with 2.9 years of industry experience and currently pursuing a Master's degree in Information Technology at Northern Arizona University. Skilled in IT security, regulatory compliance auditing, and cloud-based solutions implementation. 
-Seeking to apply expertise in contributing to the dynamic software industry while pursuing academic excellence.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis illo fugit officiis distinctio culpa officia totam atque exercitationem inventore repudiandae?</p>
     </div>
     <div class="resume_item resume_work">
         <div class="title">
@@ -188,84 +178,25 @@ Seeking to apply expertise in contributing to the dynamic software industry whil
          </div>
         <ul>
             <li>
-			    <div class="info">
-                       <h4> Professional Summary   </h4>
-				       <p>
-							▪ Joined as a fresher and got trained some basics on Azure cloud, Virtualization, SQL and Java.<br>
-							▪ 3 Years of Experience in Hybrid-Cloud migration team.<br>
-							▪ Having Experience in AWS and Azure.<br>
-							▪ Worked with CheckMarx tool for scanning the Terraform Code in ChargeVision Project.<br>
-							▪ Developed an Email Automation which works for Automating E-mails in BP Project.<br>
-							▪ Have worked on developing automation scripts using Powershell.<br>
-							▪ Build and worked on low-level scripts and health checks using powershell.<br>
-							▪ Involved with Testing Team and worked on automation testing, ADO Dashboard, TestCases, TestSuites, Bugs.<br>
-						</p>
-						<br>
-						
-					    <h4> Organization </h4>
-					 
-						<p> Name of the company : &nbsp; DXC Technology <br>
-						Designation : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Associate Professional Software Engineer<br>
-						Duration : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; April 2021 to Dec 2023 <br>
-						</p>
-						 
-						<h4> Project Thesis </h4>
-						<p> The details of the various Projects that I have worked are listed here, in chronological order. </P>
-								<h4> Project1: </h4>
-							 <table>
-								   <tr> 
-									   <th> Project Title </th>
-									   <th> Bill_DB </th>
-									</tr>
-									<tr> 
-										<td>  Client </td>
-										<td> British Petroleum </td>
-									</tr>
-									<tr>
-										<td>  </td>
-										<td> ▪ Analyze the Requirements and prepare the monthly reports. <br> 
-											 ▪ Designed Script to generate the automatic monthly reports. <br>
-											 ▪ Built a script to Collect the data from Azure in the CSV file format. <br>
-											 ▪ Compare the file with the previous reports to generate the new monthly report. <br>
-											 ▪ Validating the Script whether it generates the new monthly report automatically when it runs. <br>
-											 ▪ Played a key role in developing the script in this project. <br>
-											 ▪ Worked on SSMS tool and SQL <br>
-										</td>
-									</tr>
-									<tr>
-										 <td> Languages Used </td>
-										 <td> Powershell, MYSQL </td>
-									</tr>			 
-							  </table>
-							  
-				</div>
-				
-				<div class="info">	 
-					 <h3> Project2: </h3>
-								<table>
-									<tr> 
-											<th> Project Title </th>
-											<th> Charge Vision </th>
-									</tr>
-											<tr>
-												<td> </td>
-												<td> ▪ Built the low-level Scripts for some of the servers. <br> 
-													 ▪ Built the Powe Shell Scripts for collecting automated E-mail Id’s. <br>
-													 ▪ Contributed to the automation testing process using the Azure classic editor CI/CD Pipeline, 
-													 where I developed a small bash script to monitor website availability.<br>
-													 ▪ I utilized Docker Desktop to execute KICS Check Marx scans on Terraform code, ensuring comprehensive code scanning and analysis.<br>
-													 ▪ Built Power Shell Script to fetch the list of AWS Role Policies for Project AWS Account.<br>
-													 ▪ Actively participated in the Testing Phase alongside a team, where I gained valuable hands-on experience in manual testing using Azure ADO Board, 
-													 Additionally executed tasks such as creating test plans, developing test suites, effectively documenting and tracking bugs.<br>
-												</td>
-									        </tr>
-										<tr> 
-											<td> Languages Used </td> 
-											<td> Powershell </td>
-										</tr>	 
-								   </table>	
-				</div>	 
-				
+                <div class="date">2013 - 2015</div> 
+                <div class="info">
+                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2015 - 2017</div>
+              <div class="info">
+                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2017 - Present</div>
+              <div class="info">
+                     <p class="semi-bold">Lorem ipsum dolor sit amet.</p> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
             </li>
         </ul>
     </div>
