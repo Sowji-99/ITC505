@@ -12,7 +12,7 @@
 
 body {
   background: #585c68;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
   color: #555555;
 }
@@ -29,8 +29,8 @@ body {
 }
 
 .resume {
-  width: 1800px;
-  height: 2000px;
+  width: 800px;
+  height: auto;
   display: flex;
   margin: 50px auto;
 }
@@ -199,7 +199,7 @@ body {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 1900px;
+  height: 2005px;
   background: #0bb5f4;
 }
 
@@ -234,6 +234,38 @@ body {
 
 
 
+
+.resume .resume_right .resume_hobby ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .resume_right .resume_hobby ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0bb5f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul li i {
+  font-size: 30px;
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul li:last-child:before {
+  display: none;
+}
 
 .resume footer {
   background-color: white;
