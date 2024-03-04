@@ -71,6 +71,17 @@ body {
   border-bottom: 2px solid #b1eaff;
 }
 
+.organization,
+.designation,
+.duration {
+    margin-bottom: 10px;
+}
+
+.organization {
+    font-weight: bold;
+}
+
+
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child {
   border-bottom: 0px;
