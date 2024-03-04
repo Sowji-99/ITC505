@@ -10,9 +10,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+
 body {
   background: #585c68;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 22px;
   color: #555555;
 }
@@ -29,7 +30,7 @@ body {
 }
 
 .resume {
-  width: 800px;
+  width: 1200px;
   height: auto;
   display: flex;
   margin: 50px auto;
