@@ -98,13 +98,6 @@ body {
   position: relative;
 }
 
-.resume .icon i,
-.resume .resume_right .resume_hobby ul li i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .resume .resume_left ul li .data {
   color: #b1eaff;
@@ -235,39 +228,6 @@ body {
 .resume .resume_right .project-details .details-value ul {
   margin: 0;
   padding-left: 20px;
-}
-
-
-.resume .resume_right .resume_hobby ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-.resume .resume_right .resume_hobby ul li {
-  width: 80px;
-  height: 80px;
-  border: 2px solid #0bb5f4;
-  border-radius: 50%;
-  position: relative;
-  color: #0bb5f4;
-}
-
-.resume .resume_right .resume_hobby ul li i {
-  font-size: 30px;
-}
-
-.resume .resume_right .resume_hobby ul li:before {
-  content: "";
-  position: absolute;
-  top: 40px;
-  right: -52px;
-  width: 50px;
-  height: 2px;
-  background: #0bb5f4;
-}
-
-.resume .resume_right .resume_hobby ul li:last-child:before {
-  display: none;
 }
 
 
