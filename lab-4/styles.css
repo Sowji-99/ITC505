@@ -30,10 +30,10 @@ body {
 
 .resume {
   width: 1000px;
-  height: 1000px;
+  height: auto;
   display: flex;
   margin: 50px auto;
-  page-break-after: always;
+  
 }
 
 .resume .resume_left {
@@ -145,6 +145,10 @@ body {
 .resume .resume_left .resume_social .semi-bold {
   color: #fff;
   margin-bottom: 3px;
+}
+
+.resume .resume_right .resume_work {
+  page-break-after: always; /* Apply page break after the Work Experience section */
 }
 
 .resume .resume_right {
