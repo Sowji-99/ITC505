@@ -5,14 +5,59 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="author" content="Devi Sowjanya Chinta">
       <title> Resume/CV with CSS </title>
-	  
+	  <style>
+	    table {
+            border-collapse: collapse;
+            width: 94%;
+        }
+
+        th, td {
+            border: 5px solid #ddd;
+            padding: 4px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+		th:first-child,
+        td:first-child {
+            width: 30%; /* Set the desired width */
+        }
+        th:second-child,
+        td:second-child {
+            width: 30%; /* Set the desired width */
+        }
+		
+        body {
+            background-color: white;
+            color: black;
+            margin: 20px;
+        }
+
+        article {
+            background-color: #87CEEB; /* Sky Blue */
+            padding: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: right;
+        }
+
+        h1, h2, h3, p {
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 	  
 	  
       <!-- Style CSS -->
-      <link rel="stylesheet" href="styles.css">
-      <!-- Demo CSS (No need to include it into your project) -->
-      <link rel="stylesheet" href="./css/demo.css">
-      <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+      <link rel="stylesheet" href="./css/style.css">
+      
    </head>
    <body>
       <header class="cd__intro">
@@ -26,8 +71,7 @@
          <div class="resume">
    <div class="resume_left">
      <div class="resume_profile">
-       <img src="https://raw.githubusercontent.com/Sowji-99/ITC505/main/lab-4/image.jpeg
-       " alt="profile_pic">
+       <img src="https://raw.githubusercontent.com/Sowji-99/ITC505/main/lab-4/image.jpeg" alt="profile_pic">
      </div>
      <div class="resume_content">
        <div class="resume_item resume_info">
@@ -96,12 +140,12 @@
            </li>
            <li>
              <div class="skill_name">
-               AWS DevOps
+               JS
              </div>
              <div class="skill_progress">
-               <span style="width: 75%;"></span>
+               <span style="width: 60%;"></span>
              </div>
-             <div class="skill_per">75%</div>
+             <div class="skill_per">60%</div>
            </li>
            
          </ul>
@@ -166,36 +210,36 @@ Seeking to apply expertise in contributing to the dynamic software industry whil
 						<h4> Project Thesis </h4>
 						<p> The details of the various Projects that I have worked are listed here, in chronological order. </P>
 								<h4> Project1: </h4>
-							         <table>
-                                            <tr> 
-                                                <th> Project Title </th>
-                                                <th> Bill_DB </th>
-                                                </tr>
-                                                <tr> 
-                                                    <td>  Client </td>
-                                                    <td> British Petroleum </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>  </td>
-                                                    <td> ▪ Analyze the Requirements and prepare the monthly reports. <br> 
-                                                        ▪ Designed Script to generate the automatic monthly reports. <br>
-                                                        ▪ Built a script to Collect the data from Azure in the CSV file format. <br>
-                                                        ▪ Compare the file with the previous reports to generate the new monthly report. <br>
-                                                        ▪ Validating the Script whether it generates the new monthly report automatically when it runs. <br>
-                                                        ▪ Played a key role in developing the script in this project. <br>
-                                                        ▪ Worked on SSMS tool and SQL <br>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td> Languages Used </td>
-                                                    <td> Powershell, MYSQL </td>
-                                                </tr>			 
-							         </table>
+							 <table>
+								   <tr> 
+									   <th> Project Title </th>
+									   <th> Bill_DB </th>
+									</tr>
+									<tr> 
+										<td>  Client </td>
+										<td> British Petroleum </td>
+									</tr>
+									<tr>
+										<td>  </td>
+										<td> ▪ Analyze the Requirements and prepare the monthly reports. <br> 
+											 ▪ Designed Script to generate the automatic monthly reports. <br>
+											 ▪ Built a script to Collect the data from Azure in the CSV file format. <br>
+											 ▪ Compare the file with the previous reports to generate the new monthly report. <br>
+											 ▪ Validating the Script whether it generates the new monthly report automatically when it runs. <br>
+											 ▪ Played a key role in developing the script in this project. <br>
+											 ▪ Worked on SSMS tool and SQL <br>
+										</td>
+									</tr>
+									<tr>
+										 <td> Languages Used </td>
+										 <td> Powershell, MYSQL </td>
+									</tr>			 
+							  </table>
 							  
 				</div>
 				
 				<div class="info">	 
-					 <h4> Project2: </h4>
+					 <h3> Project2: </h3>
 								<table>
 									<tr> 
 											<th> Project Title </th>
