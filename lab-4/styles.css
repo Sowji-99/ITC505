@@ -12,7 +12,7 @@
 
 body {
   background: #585c68;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
   color: #555555;
 }
@@ -29,10 +29,11 @@ body {
 }
 
 .resume {
-  width: 800px;
+  width: 1000px;
   height: auto;
   display: flex;
   margin: 50px auto;
+  page-break-after: always;
 }
 
 .resume .resume_left {
@@ -296,9 +297,6 @@ body {
   padding: 0.7cm;
 }
 
-.resume {
-  page-break-after: always;
-}
 
 .resume footer {
   background-color: white;
