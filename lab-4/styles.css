@@ -147,7 +147,7 @@ body {
 }
 
 .resume .resume_right {
-  width: 1220px;
+  width: 520px;
   background: #fff;
   padding: 25px;
 }
@@ -180,11 +180,6 @@ body {
   margin-bottom: 0;
 }
 
-.resume .resume_right .project {
-    display: inline-block;
-    margin-right: 20px; /* Adjust margin as needed */
-}
-
 .resume .resume_right .resume_work ul li:before,
 .resume .resume_right .resume_education ul li:before {
   content: "";
@@ -204,7 +199,7 @@ body {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 1900px;
+  height: 115px;
   background: #0bb5f4;
 }
 
