@@ -3,7 +3,7 @@
      background: linear-gradient(to right, #c9d6ff, #e2e2e2) !important;
 }
 * {
-  margin: 1;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
