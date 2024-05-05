@@ -1,0 +1,105 @@
+/* Button styling */
+.but {
+    height: 60px; /* Reduced button height */
+    width: 120px; /* Increased button width */
+    font-size: 18px; /* Slightly larger font size */
+    font-family: 'Roboto', sans-serif; /* Updated font family */
+    padding: 12px; /* Increased padding */
+    margin: 8px; /* Increased margin */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    background-color: #6C63FF; /* Updated default button background color */
+    color: #fff; /* Updated default button text color */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect */
+.but:hover {
+    background-color: #5A52D1; /* Darker hover color */
+}
+/* Pressed effect */
+.but:active {
+    background-color: #5148B9; /* Darker pressed color */
+}
+.add {
+    font-weight: bolder;
+    font-size: larger
+}
+
+div  {
+        
+            background-image: radial-gradient(rgb(229, 229, 244),rgb(229, 229, 244));  
+            
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+
+            text-align: center;
+}
+
+#title {
+    font-size: 48px; /* Larger font size for title */
+    margin-bottom: 24px; /* Increased margin */
+    font-family: 'Limelight', cursive;
+}
+
+
+p, label {
+    font-size: 20px; /* Increased font size */
+    color: #444; /* Dark gray text color */
+}
+
+.footer {
+    color: #0c0c0f;
+    font-weight: bold;
+
+}
+
+/* Button styling */
+/* Button and input styling */
+button, input {
+    font-size: 18px; /* Slightly larger font size */
+    font-family: 'Arial', sans-serif; /* Change font family */
+    padding: 12px 24px; /* Increased padding for buttons */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    background-color: #3a6ad2; /* Updated background color */
+    color: #fff; /* Text color */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+}
+
+/* Hover effect */
+button:hover, input:hover {
+    background-color: #0c0c0f; /* Darker hover color */
+}
+
+/* Pressed effect */
+button:active, input:active {
+    background-color: #0f0a36; /* Darker pressed color */
+}
+
+
+/* Timer styling */
+#time, #minutes, #seconds {
+    font-size: 24px; /* Larger font size for timer */
+    color: #333; /* Darker text color */
+}
+/* Styling for specific buttons */
+
+#button1 {
+    background-color: #4CAF50; /* Green button color */
+    color: rgb(242, 240, 240); /* White text color */
+}
+#button1:hover {
+    background-color: #162b02;
+}
+
+#button2 {
+    background-color: #FFC107; /* Orange button color */
+    color: white; /* White text color */
+}

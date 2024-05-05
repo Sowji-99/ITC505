@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addendum</title>
+    
+</head>
+<body>
+    <h1>Addendum</h1>
+    <p>JS Functionality Process</p>
+    <ol>
+        <li>Grid Generation and Initialization: I have looped through each cell for defining grid size. To generate HTML buttons with unique IDs and onclick events.</li>
+        <li>I have created function s(x) for identifying the cell by ID 'X'.</li>
+        <li>sc(row, col) Function will be triggered when a cell is clicked and its adjacent cells. After toggling the cells, it checks the solve function if the game is completed.</li>
+        <li>
+        solveEnd() Function is similar to solve() function but it resets the game and timer irrespective of the game win or loss.</li>
+        <li> changeColor() Function will be updating the colors based on the cells innertext. It also counts the color of yellow lights for checking win condition</li>
+        <li> Randomization() Function will create random grid cells and included with solve function inside it. </li>
+        <li>  Reset() function will reset the timer and reset the grid by randomizing it. </li>
+        <li>  Restart confirmation dialog will help to confirm for restarting the game. </li>
+        
+    </ol>
+    <ol>
+        <li> I implemented buttons styling for visual appealing</li>
+        <li>
+            And also styled hover to increase visual enhancements.
+        </li>
+        <li>
+            Timer styling for font size and color.
+        </li>
+    </ol>
+    <ol> <p>The Challenges I faced while implementing Lights Out Game: </p>
+        <li>
+            Grid Interaction, As each cell shoukd be toggled and if one cell is toggled other adjacent cells should also react.
+
+        </li>
+        <li>
+            Also, I felt little challenging while making winning possibilities, Because sometimes grid cells will be in uncertain possibility to win making it infinite game play. 
+        </li>
+        <li>
+            Later, I found few patterns, With these patterns the game would complete succesfully. With the help of these patterns randomizing game logic became easy.
+        </li>
+        <li>
+            I, also ensured game logic by testing and debugging under many scenarios. I have provided hint option to check if bottom lights are left out in that pattern then look out for top row hints.
+        </li>
+ 
+    </ol>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sowjanya's Final Lab</title>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Limelight|Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Initially hide the Addendum section */
+    #addendum {
+      display: none;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+
+
+  <div id="background" class="full-height">
+    
+    <label id="title">Lights Out</label><br>
+    <label id="nextSolution"></label><br><br>
+    <label id="time">Time:</label> <b><label id="minutes">00</label>:<label id="seconds">00</label></b>
+    <label id="ready"></label>
+    &nbsp&nbsp<button id="button1" type="button" onclick="pause()">Pause</button>
+    <p id="container"></p>
+    <p id="count"></p>
+    <p id="stats"></p>
+    <p id="stats2"></p>
+    <audio id="bgMusic" loop>
+      <source src="sound/OYE.mp3" type="audio/mpeg">
+    </audio>
+    
+    <button id="toggleMusic" onclick="toggleMusic()">Background Music: On</button>
+    <button id="resetButton" type="button" onclick="restartGame()">Reset Game</button> 
+    <button id="hintButton" type="button" onclick="showHint()">Hint</button>
+
+    <footer>
+      <p>Last updated: 
+          <span id="lastModified"></span>
+      </p>
+    </footer>
+    <a href="addendum.html" class="add"> Addendum </a>
+
+  </div>
+ 
+  <script type="text/javascript">
+     var x = document.lastModified;
+     document.getElementById('lastModified').textContent = x;
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
