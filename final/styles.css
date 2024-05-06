@@ -52,7 +52,7 @@ p, label {
     color: #444; /* Dark gray text color */
 }
 
-.footer {
+#footer {
     color: #0c0c0f;
     font-weight: bold;
     text-align: center;
@@ -62,48 +62,45 @@ p, label {
 
 }
 
-/* Button styling */
-/* Button and input styling */
 button, input {
-    font-size: 18px; /* Slightly larger font size */
-    font-family: 'Arial', sans-serif; /* Change font family */
-    padding: 12px 24px; /* Increased padding for buttons */
+    font-size: 18px;
+    font-family: 'Arial', sans-serif; 
+    padding: 12px 24px; 
     border: none;
-    border-radius: 25px; /* Rounded corners */
+    border-radius: 25px; 
     cursor: pointer;
-    background-color: #3a6ad2; /* Updated background color */
-    color: #fff; /* Text color */
-    transition: background-color 0.3s ease; /* Smooth transition effect */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+    background-color: #3a6ad2; 
+    color: #fff; 
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 /* Hover effect */
 button:hover, input:hover {
-    background-color: #0c0c0f; /* Darker hover color */
+    background-color: #0c0c0f; 
 }
 
 /* Pressed effect */
 button:active, input:active {
-    background-color: #0f0a36; /* Darker pressed color */
+    background-color: #0f0a36; 
 }
-
 
 /* Timer styling */
 #time, #minutes, #seconds {
-    font-size: 24px; /* Larger font size for timer */
-    color: #333; /* Darker text color */
+    font-size: 24px; 
+    color: #333; 
 }
 /* Styling for specific buttons */
 
 #button1 {
-    background-color: #4CAF50; /* Green button color */
-    color: rgb(242, 240, 240); /* White text color */
+    background-color: #4CAF50; 
+    color: rgb(242, 240, 240); 
 }
 #button1:hover {
     background-color: #162b02;
 }
 
 #button2 {
-    background-color: #FFC107; /* Orange button color */
-    color: white; /* White text color */
+    background-color: #FFC107; 
+    color: white; 
 }
