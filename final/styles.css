@@ -1,11 +1,11 @@
 /* Button styling */
 .but {
-    height: 60px; /* Reduced button height */
+    height: 90px; /* Reduced button height */
     width: 120px; /* Increased button width */
     font-size: 18px; /* Slightly larger font size */
     font-family: 'Roboto', sans-serif; /* Updated font family */
     padding: 12px; /* Increased padding */
-    margin: 8px; /* Increased margin */
+    margin: 0px; /* Increased margin */
     border: none; /* Remove border */
     border-radius: 8px; /* Rounded corners */
     cursor: pointer; /* Cursor style */
