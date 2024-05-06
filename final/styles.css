@@ -55,6 +55,7 @@ p, label {
 #footer {
     color: #0c0c0f;
     font-weight: bold;
+    font-size: larger;
     text-align: center;
     position: fixed;
     bottom: 0;
